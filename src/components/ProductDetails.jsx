@@ -19,7 +19,7 @@ function ProductDetails() {
       {
         <Flex justifyContent={"space-around"} >
             {
-                data.id
+                data.id != null
                 ?
                 <>
                 <Badge fontSize="6xl" color={"blue.400"} >NAME: {data.name}</Badge>
